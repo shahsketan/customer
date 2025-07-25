@@ -1,0 +1,8 @@
+--only-binary=:all:
+Flask==2.3.3
+Flask-Cors==4.0.0
+python-dotenv==1.0.1
+Werkzeug==3.0.1
+Pillow==11.2.1
+gunicorn==21.2.0
+mysql-connector-python==8.4.0

@@ -1,0 +1,54 @@
+.admin-container {
+  padding: 30px;
+  background: #f4f6f8;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #003865;
+  margin-bottom: 20px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  padding: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background: #003865;
+  color: white;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+.export-btn-wrapper {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.export-btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.export-btn:hover {
+  background-color: #45a049;
+}
